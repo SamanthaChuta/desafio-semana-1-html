@@ -7,43 +7,52 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>Nome do blog</h1>
-        <nav>
-            <span>Home</span>
-            <span>Categorias</span>
-            <span>Sobre</span>
+        <nav class="navegacao">
+            <span class="navegacao-itens">Home</span>
+            <span class="navegacao-itens">Categorias</span>
+            <span class="navegacao-itens">Sobre</span>
         </nav>
     </header>
-    <article>
-        <h2>titulo do post</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis tristique turpis. Mauris sed neque
-            laoreet, malesuada ligula at, mattis risus. Nam id lobortis urna.
-            Mauris a rhoncus odio. Sed ut hendrerit velit, nec cursus urna. Proin ipsum erat, facilisis eget ipsum et,
-            gravida lacinia orci. Nunc nec mollis turpis, ut lobortis mauris.
-            Nam interdum mauris vitae libero dapibus, eu varius magna malesuada. Curabitur quis tincidunt ante. Integer
-            erat enim, vestibulum vitae egestas sed, interdum quis mauris.
-            Proin nec accumsan arcu, in volutpat justo. Praesent ut mauris eget nisl malesuada accumsan sit amet id
-            erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos.<br>Nullam congue mollis ante eget ullamcorper. Vivamus lacinia erat a lacus laoreet,
-            at condimentum odio eleifend. Aliquam dignissim euismod nisi, ut porttitor
-            felis finibus at. In at aliquet felis. Donec sodales et turpis eu pretium. Aenean id commodo sapien. Morbi
-            sed aliquet ex. Nulla placerat, enim non cursus pellentesque, lectus libero
-            sollicitudin sem, convallis semper massa purus sit amet turpis. Integer sit amet tempus neque, non laoreet
-            massa. Etiam eu egestas lacus. Sed quis accumsan dui. Sed vitae erat
-            fringilla, malesuada augue vel, mattis arcu. Nam augue diam, varius a ullamcorper ac, vehicula sed nibh.
-            Maecenas mauris lacus, iaculis sed risus quis, sollicitudin lobortis augue.
-            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer mattis magna
-            nulla, molestie pellentesque dui convallis convallis.</p>
-    </article>
-    <figure>
-        <img src="/img/gatinho.png" alt="Texto da imagem" width="150px">
-        <figcaption>gatinho</figcaption>
-    </figure>
-    <section>
+    <div class="sessao-principal">
+        <article>
+            <h2>titulo do post</h2>
+            <p class="artigo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis tristique turpis. Mauris sed neque
+                laoreet, malesuada ligula at, mattis risus. Nam id lobortis urna.
+                Mauris a rhoncus odio. Sed ut hendrerit velit, nec cursus urna. Proin ipsum erat, facilisis eget ipsum
+                et,
+                gravida lacinia orci. Nunc nec mollis turpis, ut lobortis mauris.
+                Nam interdum mauris vitae libero dapibus, eu varius magna malesuada. Curabitur quis tincidunt ante.
+                Integer
+                erat enim, vestibulum vitae egestas sed, interdum quis mauris.
+                Proin nec accumsan arcu, in volutpat justo. Praesent ut mauris eget nisl malesuada accumsan sit amet id
+                erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                per inceptos himenaeos.<br>Nullam congue mollis ante eget ullamcorper. Vivamus lacinia erat a lacus
+                laoreet,
+                at condimentum odio eleifend. Aliquam dignissim euismod nisi, ut porttitor
+                felis finibus at. In at aliquet felis. Donec sodales et turpis eu pretium. Aenean id commodo sapien.
+                Morbi
+                sed aliquet ex. Nulla placerat, enim non cursus pellentesque, lectus libero
+                sollicitudin sem, convallis semper massa purus sit amet turpis. Integer sit amet tempus neque, non
+                laoreet
+                massa. Etiam eu egestas lacus. Sed quis accumsan dui. Sed vitae erat
+                fringilla, malesuada augue vel, mattis arcu. Nam augue diam, varius a ullamcorper ac, vehicula sed nibh.
+                Maecenas mauris lacus, iaculis sed risus quis, sollicitudin lobortis augue.
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer mattis
+                magna
+                nulla, molestie pellentesque dui convallis convallis.</p>
+        </article>
+        <figure>
+            <img src="/img/gatinho.png" alt="Texto da imagem" width="150px">
+            <figcaption>gatinho</figcaption>
+        </figure>
+    </div>
+    <section class="saiba-mais">
         <h3>Saiba mais</h3>
-        <span>
+        <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis tristique turpis. Mauris sed neque
             laoreet, malesuada ligula at, mattis risus. Nam id lobortis urna.
             Mauris a rhoncus odio. Sed ut hendrerit velit, nec cursus urna. Proin ipsum erat, facilisis eget ipsum et,
@@ -53,10 +62,10 @@
             Proin nec accumsan arcu, in volutpat justo. Praesent ut mauris eget nisl malesuada accumsan sit amet id
             erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
             per inceptos himenaeos.
-        </span>
+        </p>
     </section>
     <aside>
-        <ul>
+        <ul class="lista-redes">
             <li>
                 <a href="#">Instagram</a>
             </li>
@@ -72,4 +81,5 @@
         <p>© 2026 Todos os direitos reservados. Samantha e Shakers.</p>
     </footer>
 </body>
+
 </html>
