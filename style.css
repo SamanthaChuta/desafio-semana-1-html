@@ -17,7 +17,7 @@ h1{
     font-style: italic;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 15px;
 }
 footer{
@@ -49,10 +49,10 @@ footer{
     gap: 30px;
 }
 .artigo{
-    font-size: 30px;
+    font-size: 20px;
 }
 .texto-saiba{
-    font-size: 20px;
+    font-size: 15px;
 }
 .Imagem-Aluno{
     justify-self: center;
