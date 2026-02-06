@@ -49,5 +49,11 @@ footer{
     gap: 30px;
 }
 .artigo{
+    font-size: 30px;
+}
+.texto-saiba{
     font-size: 20px;
+}
+.Imagem-Aluno{
+    justify-self: center;
 }
