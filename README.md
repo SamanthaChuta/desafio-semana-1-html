@@ -8,5 +8,8 @@ O site foi pensado para tornar o processo de aprendizagem mais simples e menos c
 - HTML5  
 - CSS
 
+## Link do Projeto
+[Dicas Vestibular - Acesse o site](https://samanthachuta.github.io/desafio-semana-1-html/)
+
 ## Participante
 - Samantha Chuta
