@@ -1,4 +1,3 @@
-# Desafio-semana-1-html
 # Dicas Vestibular
 
 ## Descrição do Projeto
